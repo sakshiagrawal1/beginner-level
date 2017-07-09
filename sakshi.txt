@@ -1,0 +1,243 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a;
+	Scanner s=new Scanner(System.in);
+	System.out.println("Enter a number:");
+	a=s.nextInt();
+	if (a>0)
+	{
+		System.out.println("It is a positive number");
+	}
+	else
+	{
+		System.out.println("It is a negative number");
+	}
+	}
+}
+
+
+
+                          
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a;
+	Scanner s=new Scanner(System.in);
+	System.out.println("Enter a number:");
+	a=s.nextInt();
+    if(a%2==0)
+    {
+    	System.out.println("The number is even");
+    }
+    else
+    {
+    	System.out.println("The number is odd");
+    }
+	}
+}
+
+
+
+
+
+
+
+s
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	char n;
+	BufferedReader bf= new BufferedReader(new InputStreamReader(System.in));
+	System.out.println("Enter a character:");
+	n = (char) bf.read();
+    switch(n)
+    {
+    	case 'a':
+    		System.out.println("The character"+n+"is a vowel");
+    		break;
+    	
+    	case 'e':
+    			System.out.println("The character"+n+"is a vowel");
+    		break;
+    	
+    	case 'i':
+    			System.out.println("The character"+n+"is a vowel");
+    		break;
+    	
+    	case 'o':
+    			System.out.println("The character"+n+"is a vowel");
+    		break;
+    	
+    	case 'u':
+    			System.out.println("The character"+n+"is a vowel");
+    		break;
+    	
+    	default:
+    	System.out.println("The character"+n+"is a consonent");
+    	break;
+    }
+	}
+}
+
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+    int i;
+	 Scanner s = new Scanner(System.in);
+ 
+ 
+    for(i=1;i<=5;i++)
+    {
+	System.out.println("hello");
+    }
+ 
+ 
+ 
+	}
+}
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+    char ch;
+	 Scanner s = new Scanner(System.in);
+        System.out.print("Enter the character you want to check:");
+        ch = s.next().charAt(0);
+	if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z'))
+	System.out.println("IT IS alphabet");
+	else
+		System.out.println("IT IS not alphabet");
+ 
+ 
+	}
+}
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+    int a,b,c;
+	 Scanner s = new Scanner(System.in);
+	 System.out.println("enter a");
+	 a=s.nextInt();
+     System.out.println("enter b");  
+      b=s.nextInt();
+     System.out.println("enter c");
+      c=s.nextInt();
+    if(a>b && a>c)
+    {
+	System.out.println(" a is greatest");
+    }
+	else if(b>a && b>c)
+	{
+     System.out.println(" b is greatest");
+	}
+	else
+	System.out.println(" c is greatest");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+    int a;
+	 Scanner s = new Scanner(System.in);
+	 System.out.println("enter year");
+	 a=s.nextInt();
+     
+    if(a%4==0)
+    {
+	System.out.println(" leap year");
+    }
+	
+	else
+	System.out.println(" not leap year");
+	}
+}
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a,i,sum=0;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number until which you want the some of Natural numbers:");
+		a=s.nextInt();
+		for(i=1;i<=a;i++)
+		{
+			sum=sum+i;
+		}
+		System.out.println("The sum is:"+sum);
+		}
+}
+
+
